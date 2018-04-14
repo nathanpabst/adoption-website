@@ -1,4 +1,3 @@
-// what does this variable do? 
 const domEvents = require('./events');
 
 const outputDiv = document.getElementById('pet-cards');
@@ -17,6 +16,7 @@ const domString = (pets) => {
 
 const printToDom = (petArray) => {
   outputDiv.innerHTML = domString(petArray);
+  domEvents();
 };
 
 module.exports = printToDom;
