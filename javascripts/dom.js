@@ -34,7 +34,7 @@ const domString = (pets) => {
 
 const printToDom = (petArray) => {
   outputDiv.innerHTML = domString(petArray);
-  domEvents();
+  domEvents.allAnimalButtons();
 };
 
 module.exports = printToDom;
