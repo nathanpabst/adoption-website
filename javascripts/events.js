@@ -1,3 +1,3 @@
-const petCards = document.getElementsByClassName('pet');
+// const petCards = document.getElementsByClassName('pet');
 
-module.exports = addEvents;
+// module.exports = addEvents;

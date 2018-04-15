@@ -1,0 +1,48 @@
+body {
+  background-color: #504A4A;
+  color: white;
+  font-size: 16px;
+}
+.pet-btn {
+  margin: 40px;
+  padding: 12px 20px 12px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+/* ANIMAL CARD STYLING */
+.panel > .panel-heading {
+  background-color: #f78f3f;
+}
+.panel {
+  background-color: #504A4A;
+  border: solid 1px white;
+  text-align: center;
+  height: 450px;
+}
+.pet-photo {
+  width: 90%;
+  height: 90%;
+}
+#dogs {
+  background-color: #5cb85c;
+  color: white;
+}
+#cats {
+  background-color: #5bc0de;
+  color:white;
+}
+#dinos {
+background-color: #f0ad4e;
+color: white;
+}
+.panel-footer .cat {
+  /* background-color: orange;
+  padding: 0; */
+}
+.panel-title {
+  font-size: 24px;
+}
+
+.pet-photo {
+
+}
