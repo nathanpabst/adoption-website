@@ -1,4 +1,4 @@
-const catButton = document.getElementById('cat');
+const catButton = document.getElementById('cats');
 // const dogButton = document.getElementById('dog');
 // const dinoButton = document.getElementById('dino');
 
