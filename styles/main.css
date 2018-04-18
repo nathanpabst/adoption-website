@@ -46,3 +46,7 @@ color: white;
 .pet-photo {
 
 }
+
+.hidden {
+  display: none;
+}
