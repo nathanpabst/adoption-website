@@ -5,7 +5,7 @@ const outputDiv = document.getElementById('pet-cards');
 const domString = (pets) => {
   let strang = '';
   pets.forEach((pet) => {
-    strang += `<div class="col-sm-3">`;
+    strang += `<div class="col-sm-3 ${pet.type}">`;
     strang += `<div class="panel">`;
     strang +=  `<div class="panel-heading">`;
     strang +=    `<h3 class="panel-title">${pet.name}</h3>`;
@@ -18,7 +18,7 @@ const domString = (pets) => {
     if (pet.type === 'cat') {
       strang += `<h4 class="cat">${pet.type}</h4>`;
     } else if (pet.type === 'dog') {
-      strang += `<h4 class='dog'>${pet.type}</h4>`;
+      strang += `<h4 class='hide-dog'>${pet.type}</h4>`;
     } else {
       strang += `<h4 class='dino'>${pet.type}</h4>`;
     }
@@ -34,7 +34,7 @@ const domString = (pets) => {
 
 const printToDom = (petArray) => {
   outputDiv.innerHTML = domString(petArray);
-  domEvents();
+  domEvents.allAnimalButtons();
 };
 
 module.exports = printToDom;

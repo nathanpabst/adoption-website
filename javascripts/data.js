@@ -18,5 +18,4 @@ const initializer = () => {
 
 module.exports = {
   initializer,
-  // getPets,
 };
