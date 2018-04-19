@@ -1,7 +1,7 @@
 body {
   background-color: #504A4A;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
 }
 .pet-btn {
   margin: 40px;
@@ -40,24 +40,20 @@ color: white;
 .panel-footer .cat {
   background-color: #5bc0de;
   color:white;
-  padding: 7px;
+  padding: 15px;
 }
 .panel-footer .dog {
   background-color: #5cb85c;;
   color:white;
-  padding: 7px;
+  padding: 15px;
 }
 .panel-footer .dino {
   background-color: #f0ad4e;
   color:white;
-  padding: 7px;
+  padding: 15px;
 }
 .panel-title {
   font-size: 24px;
-}
-
-.pet-photo {
-
 }
 
 .hidden {
