@@ -1,7 +1,7 @@
 body {
   background-color: #504A4A;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
 }
 .pet-btn {
   margin: 40px;
@@ -31,13 +31,26 @@ body {
   background-color: #5bc0de;
   color:white;
 }
+
 #dinos {
 background-color: #f0ad4e;
 color: white;
 }
+
 .panel-footer .cat {
-  /* background-color: orange;
-  padding: 0; */
+  background-color: #5bc0de;
+  color:white;
+  padding: 7px;
+}
+.panel-footer .dog {
+  background-color: #5cb85c;;
+  color:white;
+  padding: 7px;
+}
+.panel-footer .dino {
+  background-color: #f0ad4e;
+  color:white;
+  padding: 7px;
 }
 .panel-title {
   font-size: 24px;
