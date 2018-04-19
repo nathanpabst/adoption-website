@@ -10,7 +10,7 @@ This application is used for people who are searching for a new pet. When you cl
 
 ![View when dogs button is clicked](https://raw.githubusercontent.com/nathanpabst/adoption-website/master/screenshots/Screen%20Shot%202018-04-19%20at%206.05.34%20PM.png)
 
-![View when cats button is clicked] (https://github.com/nathanpabst/adoption-website/blob/master/screenshots/Screen%20Shot%202018-04-19%20at%206.05.50%20PM.png)
+![View when cats button is clicked](https://github.com/nathanpabst/adoption-website/blob/master/screenshots/Screen%20Shot%202018-04-19%20at%206.05.50%20PM.png)
 
 ## How to Run
 1. Clone down this repo and cd into project
