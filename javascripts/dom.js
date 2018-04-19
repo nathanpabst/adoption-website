@@ -18,7 +18,7 @@ const domString = (pets) => {
     if (pet.type === 'cat') {
       strang += `<h4 class="cat">${pet.type}</h4>`;
     } else if (pet.type === 'dog') {
-      strang += `<h4 class='hide-dog'>${pet.type}</h4>`;
+      strang += `<h4 class='dog'>${pet.type}</h4>`;
     } else {
       strang += `<h4 class='dino'>${pet.type}</h4>`;
     }
